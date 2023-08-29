@@ -17,7 +17,7 @@ export default function Home() {
         </section>
 
         <section id="firstimpression-section">
-          <h1>First impression</h1>
+          <h1 className="uppercase italic text-5xl text-yellow-500">Der erste Eindruck hat nur eine Chance.</h1>
         </section>
 
         <section id="corporatework-section">
