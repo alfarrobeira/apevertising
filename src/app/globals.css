@@ -7,7 +7,7 @@ body {
 }
 
 .menu {
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 /* Fonts */
@@ -15,35 +15,8 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.head-gold-italic {
-  font-size: 3.3em;
-  font-weight: 400;
-  font-style: italic;
+.gold {
   color: #F39828;
-}
-
-.xl-gold-italic {
-  font-size: 6em;
-  font-weight: 400;
-  font-style: italic;
-  color: #F39828;
-}
-
-.head-black {
-  font-size: 3em;
-  font-weight: 400;
-}
-
-.head-gold {
-  font-size: 3em;
-  color: #F39828;
-  font-weight: 400;
-}
-
-.subhead-gold {
-  font-size: 2em;
-  color: #F39828;
-  font-weight: 400;
 }
 
 /* Grid */

@@ -9,18 +9,22 @@ export default function Home() {
         <MainMenu />
       </header>
 
-      {/* <main className="flex min-h-screen flex-col items-center justify-between p-12">
-        Homepage
-      </main> */}
-      <main className="flex flex-col items-center justify-between p-12">
+      <main className="flex flex-col items-center justify-between pb-20">
         <section id="video-section">
-          <h1>Video here</h1>
+          <div className="relative bg-black w-full text-white">
+            Relative
+            <video src="startseite.mp4" autoPlay loop muted />
+            <div className="absolute top-5 left-10">
+              <div className="uppercase bold text-slate-100 text-6xl text-center">Apevertising</div>
+              <div className="text-6xl gold">Wir formen Marken</div>
+            </div>
+          </div>
         </section>
 
         <section id="firstimpression-section">
           <div className="content-wrapper">
             <div className="content">
-              <h1 className="uppercase head-gold-italic py-10">
+              <h1 className="uppercase text-5xl gold italic py-10">
                 Der erste Eindruck hat nur eine Chance.
               </h1>
               <p>
@@ -40,19 +44,19 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-4 gap-2 py-12">
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="xl-gold-italic">&nbsp;4</div>
+                  <div className="text-8xl italic gold">&nbsp;4</div>
                   <div className="italic">festangestellte Mitarbeitende</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="xl-gold-italic">234</div>
+                  <div className="text-8xl italic gold">234</div>
                   <div className="italic">Quadratmeter Kreativität</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="xl-gold-italic">100</div>
+                  <div className="text-8xl italic gold">100</div>
                   <div className="italic">Prozent Leidenschaft</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="xl-gold-italic">124</div>
+                  <div className="text-8xl italic gold">124</div>
                   <div className="italic">Jahre addierte Berufserfahrung</div>
                 </div>
               </div>
@@ -63,10 +67,10 @@ export default function Home() {
         <section id="corporatework-section">
           <div className="content-wrapper">
             <div className="content">
-              <h1 className="uppercase head-black text-center">
+              <h1 className="uppercase text-5xl text-center p-4">
                 Corporate Work
               </h1>
-              <h3 className="subhead-gold text-center">Wie wir arbeiten.</h3>
+              <h3 className="text-4xl gold text-center">Wie wir arbeiten.</h3>
               <p>&nbsp;</p>
               <p>
                 Mit unseren 4 Mitarbeitenden sind wir stark genug, um
@@ -94,8 +98,10 @@ export default function Home() {
         <section id="connect-section">
           <div className="feed-wrapper">
             <div className="feed-content">
-              <h1 className="uppercase head-black text-center">Connect with us</h1>
-              <h3 className="subhead-gold text-center">Finde uns hier.</h3>
+              <h1 className="uppercase text-5xl text-center p-4">
+                Connect with us
+              </h1>
+              <h3 className="text-3xl gold text-center">Finde uns hier.</h3>
               <p>&nbsp;</p>
               <img src="Feed1.png" alt="Feed1" />
               <img src="Feed2.png" alt="Feed2" />
