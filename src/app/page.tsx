@@ -43,19 +43,19 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-4 gap-2 py-12">
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-8xl italic gold">&nbsp;4</div>
+                  <div className="text-7xl italic gold">&nbsp;4</div>
                   <div className="italic">festangestellte Mitarbeitende</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-8xl italic gold">234</div>
+                  <div className="text-7xl italic gold">234</div>
                   <div className="italic">Quadratmeter Kreativität</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-8xl italic gold">100</div>
+                  <div className="text-7xl italic gold">100</div>
                   <div className="italic">Prozent Leidenschaft</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-8xl italic gold">124</div>
+                  <div className="text-7xl italic gold">124</div>
                   <div className="italic">Jahre addierte Berufserfahrung</div>
                 </div>
               </div>
