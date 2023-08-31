@@ -11,12 +11,11 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-between pb-20">
         <section id="video-section">
-          <div className="relative bg-black w-full text-white">
-            Relative
+          <div className="relative flex justify-center">
             <video src="startseite.mp4" autoPlay loop muted />
-            <div className="absolute top-5 left-10">
-              <div className="uppercase bold text-slate-100 text-6xl text-center">Apevertising</div>
-              <div className="text-6xl gold">Wir formen Marken</div>
+            <div className="absolute top-32">
+              <div className="uppercase font-semibold text-white text-8xl text-center p-12">Apevertising</div>
+              <div className="text-7xl gold text-center">Wir formen Marken</div>
             </div>
           </div>
         </section>
@@ -103,9 +102,7 @@ export default function Home() {
               </h1>
               <h3 className="text-3xl gold text-center">Finde uns hier.</h3>
               <p>&nbsp;</p>
-              <img src="Feed1.png" alt="Feed1" />
-              <img src="Feed2.png" alt="Feed2" />
-              <img src="Feed3.png" alt="Feed3" />
+              <img src="Feeds.png" alt="Feed" />
             </div>
           </div>
         </section>
