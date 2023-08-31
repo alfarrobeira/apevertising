@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} bg-slate-100 text-slate-900 mx-auto`}>{children}</body>
+      <body className={`${montserrat.className} bg-white text-black mx-auto`}>{children}</body>
     </html>
   )
 }
