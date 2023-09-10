@@ -13,7 +13,7 @@ export default function Home() {
         <section id="video-section">
           <div className="relative flex justify-center">
             <video src="startseite.mp4" autoPlay loop muted />
-            <div className="absolute top-20 lg:top-36">
+            <div className="absolute top-10 md:top-20 lg:top-40">
               <h1 className="text-4xl md:text-6xl lg:text-8xl uppercase font-semibold text-white text-center py-4 md:py-8 lg:py-12">Apevertising</h1>
               <h2 className="text-3xl md:text-5xl lg:text-7xl gold text-center">Wir formen Marken</h2>
             </div>
