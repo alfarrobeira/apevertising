@@ -9,10 +9,11 @@ export function VideoDisplay({
   headline,
   subheader,
 }: VideoDisplayProps) {
-  const multilineSubheader = subheader.split("\\n").map((fragment) => {
+  // make sure to use the key parameter to avoid ESLint Error: Missing "key" prop for element in iterator
+  const multilineSubheader = subheader.split("\\n").map((item, key) => {
     return (
-      <span>
-        {fragment}
+      <span key={key}>
+        {item}
         <br />
       </span>
     );
