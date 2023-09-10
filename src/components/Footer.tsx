@@ -33,13 +33,13 @@ export function Footer() {
         </div>
       </div>
       <div className="bg-white text-black">
-        <div className="flex items-center justify-between container mx-auto px-6 md:px-12 lg:px-20 py-4">
-          <div className="corporate-font1">
+        <div className="flex flex-wrap items-center justify-between px-6 md:px-12 lg:px-20 py-4">
+          <p className="corporate-font1">
             Impressum&nbsp;&nbsp;|&nbsp;&nbsp;Datenschutzerklärung&nbsp;&nbsp;|&nbsp;&nbsp;AGB&nbsp;&nbsp;|&nbsp;&nbsp;Hinweis
             nach VSBG
-          </div>
-          <div className="flex">
-            <div className="corporate-font1">Follow us</div>
+          </p>
+          <div className="flex py-4">
+            <p className="corporate-font1">Follow us</p>
             <img src="/SocialMedia.png" alt="Social Media" width="220" />
           </div>
         </div>
