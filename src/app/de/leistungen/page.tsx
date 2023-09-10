@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { MainMenu } from "@/components/MainMenu";
+import { VideoDisplay } from "@/components/VideoDisplay";
 
 export default function Page() {
   return (
@@ -8,33 +9,64 @@ export default function Page() {
         <MainMenu />
       </header>
 
-      <main className="flex flex-col items-center justify-between p-12">
+      <main className="flex flex-col items-center justify-between pb-20">
         <section id="video-section">
-          <div className="relative flex justify-center">
-            <video src="/videos/leistungen.mp4" autoPlay loop muted />
-            <div className="absolute top-10 md:top-20 lg:top-40">
-              <h1 className="text-4xl md:text-6xl lg:text-8xl uppercase font-semibold text-white text-center py-4 md:py-8 lg:py-12">
-                Leistungen.
-              </h1>
-              <h2 className="text-3xl md:text-5xl lg:text-7xl gold text-center">
-                Erst denken,
-                <br />
-                dann machen.
-              </h2>
+          <VideoDisplay
+            filename="leistungen.mp4"
+            headline="Leistungen"
+            subheader="Erst denken,\ndann machen" />
+        </section>
+
+        <section id="playground-section">
+          <div className="content-wrapper py-10 md:py-15 lg:py-20">
+            <div className="content">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
+                Unser Playground
+              </h3>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">
+                Ganzheitlich.
+              </h4>
+              <p>&nbsp;</p>
+              <p>
+                Wenn so viele Expertinnen und Experten in einer Werbeagentur
+                zusammenkommen, entsteht eine enorme kreative Kraft. Unsere
+                Leistungen aus Strategie, Beratung, Konzeption, Design, Text,
+                Foto, Film, Produktion, Coding sowie Offline- und
+                Onlinemarketing folgen dabei einem ganzheitlichen Verständnis
+                für die Ziele unserer Kunden aus b2b und b2c.
+              </p>
+              <p>&nbsp;</p>
+              <p>
+                Egal ob es dabei um die Steigerung der Markenbekanntheit oder
+                der Verkaufszahlen geht. Wir begeistern und aktivieren. Wir
+                gestalten und entwickeln. Wir formen Marken.
+              </p>
             </div>
           </div>
         </section>
 
-        <section id="2">
-          <h1>todo</h1>
+        <section id="arbeitsweise-section">
+          <div className="content-wrapper py-10 md:py-15 lg:py-20">
+            <div className="content text-center ">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase p-4">
+                Unsere Arbeitsweise
+              </h3>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold">
+                Workflow.
+              </h4>
+              <p>Display Workflow here!</p>
+            </div>
+          </div>
         </section>
 
-        <section id="3">
-          <h1>todo</h1>
-        </section>
-
-        <section id="4">
-          <h1>todo</h1>
+        <section id="logo-section">
+          <div className="content-wrapper bg-black text-white">
+            <div className="content">
+              <h5 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
+                Neugierig geworden?
+              </h5>
+            </div>
+          </div>
         </section>
       </main>
 
