@@ -13,9 +13,9 @@ export default function Home() {
         <section id="video-section">
           <div className="relative flex justify-center">
             <video src="startseite.mp4" autoPlay loop muted />
-            <div className="absolute top-32">
-              <div className="uppercase font-semibold text-white text-8xl text-center p-12">Apevertising</div>
-              <div className="text-7xl gold text-center">Wir formen Marken</div>
+            <div className="absolute top-20 lg:top-36">
+              <h1 className="text-4xl md:text-6xl lg:text-8xl uppercase font-semibold text-white text-center py-4 md:py-8 lg:py-12">Apevertising</h1>
+              <h2 className="text-3xl md:text-5xl lg:text-7xl gold text-center">Wir formen Marken</h2>
             </div>
           </div>
         </section>
@@ -23,9 +23,9 @@ export default function Home() {
         <section id="firstimpression-section">
           <div className="content-wrapper">
             <div className="content">
-              <h1 className="uppercase text-5xl gold italic py-10">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase gold italic py-10">
                 Der erste Eindruck hat nur eine Chance.
-              </h1>
+              </h3>
               <p>
                 Mit einem interdisziplinären Team aus kreativen Expertinnen und
                 Experten entwickeln wir Online-Kommunikationslösungen für
@@ -41,21 +41,21 @@ export default function Home() {
                 der Erfahrung als Online Marketingagentur in Bamberg und
                 München.
               </p>
-              <div className="grid grid-cols-4 gap-2 py-12">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 py-12 text-center">
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-7xl italic gold">&nbsp;4</div>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">&nbsp;4</h1>
                   <div className="italic">festangestellte Mitarbeitende</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-7xl italic gold">234</div>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">234</h1>
                   <div className="italic">Quadratmeter Kreativität</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-7xl italic gold">100</div>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">100</h1>
                   <div className="italic">Prozent Leidenschaft</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <div className="text-7xl italic gold">124</div>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">124</h1>
                   <div className="italic">Jahre addierte Berufserfahrung</div>
                 </div>
               </div>
@@ -66,10 +66,10 @@ export default function Home() {
         <section id="corporatework-section">
           <div className="content-wrapper">
             <div className="content">
-              <h1 className="uppercase text-5xl text-center p-4">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
                 Corporate Work
-              </h1>
-              <h3 className="text-4xl gold text-center">Wie wir arbeiten.</h3>
+              </h3>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">Wie wir arbeiten.</h4>
               <p>&nbsp;</p>
               <p>
                 Mit unseren 4 Mitarbeitenden sind wir stark genug, um
@@ -97,10 +97,10 @@ export default function Home() {
         <section id="connect-section">
           <div className="feed-wrapper">
             <div className="feed-content">
-              <h1 className="uppercase text-5xl text-center p-4">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
                 Connect with us
-              </h1>
-              <h3 className="text-3xl gold text-center">Finde uns hier.</h3>
+              </h3>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">Finde uns hier.</h4>
               <p>&nbsp;</p>
               <img src="Feeds.png" alt="Feed" />
             </div>
