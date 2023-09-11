@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { MainMenu } from "@/components/MainMenu";
 import { VideoDisplay } from "@/components/VideoDisplay";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -9,12 +10,13 @@ export default function Page() {
         <MainMenu />
       </header>
 
-      <main className="flex flex-col items-center justify-between pb-20">
+      <main className="flex flex-col items-center justify-between">
         <section id="video-section">
           <VideoDisplay
             filename="leistungen.mp4"
             headline="Leistungen"
-            subheader="Erst denken,\ndann machen" />
+            subheader="Erst denken,\ndann machen"
+          />
         </section>
 
         <section id="playground-section">
@@ -47,24 +49,35 @@ export default function Page() {
 
         <section id="arbeitsweise-section">
           <div className="content-wrapper py-10 md:py-15 lg:py-20">
-            <div className="content text-center ">
+            <div className="content text-center">
               <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase p-4">
                 Unsere Arbeitsweise
               </h3>
               <h4 className="text-2xl md:text-3xl lg:text-4xl gold">
                 Workflow.
               </h4>
-              <p>Display Workflow here!</p>
+              <p className="py-20">Display Workflow here!</p>
             </div>
           </div>
         </section>
 
         <section id="logo-section">
-          <div className="content-wrapper bg-black text-white">
-            <div className="content">
-              <h5 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
+          {/* todo: bg-no-repeat"> */}
+          <div className="content-wrapper bg-black bg-[url('/images/blackline.png')] w-screen bg-cover bg-center text-white p-10">
+            <div className="content text-center">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase py-8">
                 Neugierig geworden?
-              </h5>
+              </h3>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold py-4">
+                Machen Sie sich ein Bild<br />von unserer Arbeit.
+              </h4>
+              <img src="/images/WhiteArrowDown.png" alt="ArrowDown" className="mx-auto px-14 py-6" />
+              <div className="text-center text-white my-10">
+                <Link href="/" className="uppercase border border-white px-4 py-4">
+                  <img src="/images/WhiteLine.png" className="inline w-20" />
+                  <span>&nbsp;Referenzen</span>
+                </Link>
+              </div>
             </div>
           </div>
         </section>

@@ -94,7 +94,7 @@ export default function Home() {
                 sich das doch mal genauer an.
               </p>
               <div className="text-center my-20">
-                <Link href="/" className="uppercase border border-black p-2">
+                <Link href="/" className="uppercase border border-black p-4">
                   <img src="/images/BlackLine.png" className="inline" />
                   <span>&nbsp;Referenzen</span>
                 </Link>
