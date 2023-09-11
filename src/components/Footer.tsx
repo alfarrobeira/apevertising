@@ -12,7 +12,7 @@ export function Footer() {
             <Link href="/">Referenzen</Link>
             <div className="mt-1">
               <Link href="/" className="uppercase border border-white p-2">
-                <img src="/WhiteLine.png" className="inline" />
+                <img src="/images/WhiteLine.png" className="inline" />
                 <span>&nbsp;Newsletter abonnieren</span>
               </Link>
             </div>
@@ -40,7 +40,7 @@ export function Footer() {
           </p>
           <div className="flex py-4">
             <p className="corporate-font1">Follow us</p>
-            <img src="/SocialMedia.png" alt="Social Media" width="220" />
+            <img src="/images/SocialMedia.png" alt="Social Media" width="220" />
           </div>
         </div>
       </div>

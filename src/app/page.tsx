@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { MainMenu } from "@/components/MainMenu";
+import { VideoDisplay } from "@/components/VideoDisplay";
 import Link from "next/link";
 
 export default function Home() {
@@ -11,13 +12,11 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-between pb-20">
         <section id="video-section">
-          <div className="relative flex justify-center">
-            <video src="startseite.mp4" autoPlay loop muted />
-            <div className="absolute top-10 md:top-20 lg:top-40">
-              <h1 className="text-4xl md:text-6xl lg:text-8xl uppercase font-semibold text-white text-center py-4 md:py-8 lg:py-12">Apevertising</h1>
-              <h2 className="text-3xl md:text-5xl lg:text-7xl gold text-center">Wir formen Marken</h2>
-            </div>
-          </div>
+          <VideoDisplay
+            filename="startseite.mp4"
+            headline="Apevertising"
+            subheader="Wir formen Marken"
+          />
         </section>
 
         <section id="firstimpression-section">
@@ -43,19 +42,27 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 py-12 text-center">
                 <div className="grid grid-rows-2 gap-1">
-                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">&nbsp;4</h1>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">
+                    &nbsp;4
+                  </h1>
                   <div className="italic">festangestellte Mitarbeitende</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">234</h1>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">
+                    234
+                  </h1>
                   <div className="italic">Quadratmeter Kreativität</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">100</h1>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">
+                    100
+                  </h1>
                   <div className="italic">Prozent Leidenschaft</div>
                 </div>
                 <div className="grid grid-rows-2 gap-1">
-                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">124</h1>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl italic gold">
+                    124
+                  </h1>
                   <div className="italic">Jahre addierte Berufserfahrung</div>
                 </div>
               </div>
@@ -69,7 +76,9 @@ export default function Home() {
               <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
                 Corporate Work
               </h3>
-              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">Wie wir arbeiten.</h4>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">
+                Wie wir arbeiten.
+              </h4>
               <p>&nbsp;</p>
               <p>
                 Mit unseren 4 Mitarbeitenden sind wir stark genug, um
@@ -85,8 +94,8 @@ export default function Home() {
                 sich das doch mal genauer an.
               </p>
               <div className="text-center my-20">
-                <Link href="/" className="uppercase border border-black p-2">
-                  <img src="/BlackLine.png" className="inline" />
+                <Link href="/" className="uppercase border border-black p-4">
+                  <img src="/images/BlackLine.png" className="inline" />
                   <span>&nbsp;Referenzen</span>
                 </Link>
               </div>
@@ -100,9 +109,11 @@ export default function Home() {
               <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
                 Connect with us
               </h3>
-              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">Finde uns hier.</h4>
+              <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">
+                Finde uns hier.
+              </h4>
               <p>&nbsp;</p>
-              <img src="Feeds.png" alt="Feed" />
+              <img src="/images/Feeds.png" alt="Feed" />
             </div>
           </div>
         </section>

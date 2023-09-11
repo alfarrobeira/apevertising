@@ -12,7 +12,7 @@ export function MainMenu() {
       <div className="flex items-center justify-between container mx-auto px-4 lg:px-12 xl:px-24 py-4 uppercase">
         <Link href="/">
           <img
-            src="/Logo_APEvertising_by_Goldwert_2022_PNG.png"
+            src="/images/Logo_APEvertising_by_Goldwert_2022_PNG.png"
             alt="Logo"
             width="200"
           />
