@@ -1,5 +1,5 @@
 import { Footer } from "@/components/Footer";
-import { JobListItem } from "@/components/JobListItem";
+import JobList from "@/components/JobList";
 import { MainMenu } from "@/components/MainMenu";
 import { VideoDisplay } from "@/components/VideoDisplay";
 import Link from "next/link";
@@ -62,16 +62,15 @@ export default function Page() {
         </section>
 
         <section id="jobs-section">
-          <div className="content-wrapper py-10">
-            <div className="content">
+          <div className="feed-wrapper">
+            <div className="feed-content">
               <h3 className="text-3xl md:text-4xl lg:text-5xl uppercase text-center p-4">
                 Bewirb dich!
               </h3>
               <h4 className="text-2xl md:text-3xl lg:text-4xl gold text-center">
                 Aktuelle Stellenausschreibungen.
               </h4>
-              {/* ToDo */}
-              <JobListItem id={0} title={"todo"} employmentType={""} active={true}  />
+              <JobList />
             </div>
           </div>
         </section>
