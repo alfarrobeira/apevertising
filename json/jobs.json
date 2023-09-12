@@ -1,0 +1,33 @@
+{
+    "jobs": [
+      {
+        "id": 11,
+        "title": "Grafik Design/Content Creation 'Social Media'",
+        "jobType": "Vollzeit",
+        "experienceLevel": "Festanstellung",
+        "active": "true"
+      },
+      {
+        "id": 22,
+        "title": "Praktikum Filmproduktion",
+        "jobType": "Vollzeit",
+        "experienceLevel": "Praktikum/Werkstudium",
+        "active": "true"
+      },
+      {
+        "id": 33,
+        "title": "Praktikum Fotoproduktion",
+        "jobType": "Vollzeit",
+        "experienceLevel": "Praktikum/Werkstudium",
+        "active": "true"
+      },
+      {
+        "id": 44,
+        "title": "Videografie",
+        "jobType": "Vollzeit",
+        "experienceLevel": "Festanstellung",
+        "active": "true"
+      }
+    ]
+  }
+  
