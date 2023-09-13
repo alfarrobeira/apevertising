@@ -9,7 +9,7 @@ export default function Page() {
         <MainMenu />
       </header>
 
-      <main className="flex flex-col items-center justify-between p-12">
+      <main className="flex flex-col items-center justify-between">
         <section id="video-section">
           <VideoDisplay
             filename="startseite.mp4"
